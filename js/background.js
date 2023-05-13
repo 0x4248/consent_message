@@ -2,7 +2,11 @@ const images = [
     "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1920",
     "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=1920",
     "https://images.unsplash.com/37/IHLjdHdzSvi0rgUMMlSK_TE3_0286.jpg?w=1920",
-    "https://images.unsplash.com/photo-1682687219573-3fd75f982217?w=1920"
+    "https://images.unsplash.com/photo-1682687219573-3fd75f982217?w=1920",
+    "https://images.unsplash.com/photo-1682687219570-4c596363fd96?w=1920",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1920",
+    "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?w=1920",
+    "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1920",
 ]
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
