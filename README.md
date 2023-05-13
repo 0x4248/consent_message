@@ -21,3 +21,5 @@ Consent messages are at `/consent`. You use the URL perimeters to customize the 
 ### Example
 
 `/consent?title=Example&description=This%20is%20an%20example%20message&link=https://example.com&icon=https://via.placeholder.com/50x50`
+
+[Click here to see the example](https://consent-message.herokuapp.com/consent?title=Example&description=This%20is%20an%20example%20message&link=https://example.com&icon=https://via.placeholder.com/50x50)
