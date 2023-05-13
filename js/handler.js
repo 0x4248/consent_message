@@ -1,3 +1,9 @@
+/* Consent message
+ * Get user consent in a way that is both easy and customizable to your needs.
+ * Github: https://www.github.com/awesomelewis2007/consent_message
+ * By: Lewis Evans
+ */
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }

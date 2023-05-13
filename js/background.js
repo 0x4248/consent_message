@@ -1,3 +1,9 @@
+/* Consent message
+ * Get user consent in a way that is both easy and customizable to your needs.
+ * Github: https://www.github.com/awesomelewis2007/consent_message
+ * By: Lewis Evans
+ */
+
 const images = [
     "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1920",
     "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=1920",
