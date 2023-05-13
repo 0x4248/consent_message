@@ -28,11 +28,11 @@ sleep(500).then(() => {
 
         setTimeout(() => {
             document.getElementById("consent-message").style.opacity = i;
-        }
-        , i * 500);
+        }, i * 500);
     }
 });
-function handleYes(){
+
+function handleYes() {
     document.getElementById("consent-message").innerHTML = "<h1>Redirecting</h1><p>Redirecting you to the link...</p>";
     window.location.href = link;
 }
