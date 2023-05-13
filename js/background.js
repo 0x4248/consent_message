@@ -58,5 +58,5 @@ bgImage.onload = () => {
         setTimeout(() => {
             bgImage.style.opacity = i;
         }, i * 500);
-    }   
+    }
 }
