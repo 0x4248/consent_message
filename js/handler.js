@@ -1,3 +1,8 @@
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
 const urlParams = new URLSearchParams(window.location.search);
 const title = urlParams.get('title');
 const description = urlParams.get('description');
@@ -17,9 +22,16 @@ if (icon == null || icon == "" || icon == "null" || icon == "none") {
     document.getElementById("icon").src = icon;
 }
 
-
 document.getElementById("redirect_text").innerHTML = "You will be redirected to: <code>" + link + "</code>";
+sleep(500).then(() => {
+    for (let i = 0; i <= 1; i += 0.01) {
 
+        setTimeout(() => {
+            document.getElementById("consent-message").style.opacity = i;
+        }
+        , i * 500);
+    }
+});
 function handleYes(){
     document.getElementById("consent-message").innerHTML = "<h1>Redirecting</h1><p>Redirecting you to the link...</p>";
     window.location.href = link;

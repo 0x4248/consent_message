@@ -12,6 +12,11 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
+a {
+    color: #618ae3;
+    text-decoration: none;
+    
+}
 .examples {
     display: flex;
     flex-wrap: wrap;

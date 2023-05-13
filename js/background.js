@@ -16,6 +16,7 @@ bgImage.src = `${chosenImage}`;
 bgImage.id = "background";
 bgImage.classList.add("background");
 document.body.appendChild(bgImage);
+bgImage.style.opacity = "0";
 bgImage.style.position = "absolute";
 bgImage.style.zIndex = "-1";
 bgImage.style.top = "0";
@@ -34,6 +35,7 @@ if (isDarkMode) {
     darken.id = "darken";
     darken.classList.add("darken");
     document.body.appendChild(darken);
+    bgImage.style.opacity = "0";
     darken.style.position = "absolute";
     darken.style.zIndex = "-1";
     darken.style.top = "0";
@@ -43,4 +45,12 @@ if (isDarkMode) {
     darken.style.width = "100%";
     darken.style.height = "100%";
     darken.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+}
+
+bgImage.onload = () => {
+    for (let i = 0; i <= 1; i += 0.01) {
+        setTimeout(() => {
+            bgImage.style.opacity = i;
+        }, i * 500);
+    }   
 }
