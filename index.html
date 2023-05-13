@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Consent Message</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1 id="title" style="text-align: center;">Get user consent done right</h1>
+        <p style="text-align: center;">With our consent message, you can get user consent in a way that is both easy and customizable to your needs.</p>
+        <div id="examples" class="examples">
+            <img src="img/example_1.png" alt="Example 1" class="example">
+            <img src="img/example_2.png" alt="Example 2" class="example">
+        </div>
+        <div class="readme">
+            <h2 id="usage">Usage</h2>
+            <p>Consent messages are at <code>/consent</code>. You use the URL perimeters to customize the message.</p>
+            <h3 id="perimeters">Perimeters</h3>
+            <table>
+            <thead>
+            <tr>
+            <th>Perimeter</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><code>title</code></td>
+            <td>The title of the message</td>
+            </tr>
+            <tr>
+            <td><code>description</code></td>
+            <td>The description of the message</td>
+            </tr>
+            <tr>
+            <td><code>link</code></td>
+            <td>Where the browser will be redirected to if the user accepts the message</td>
+            </tr>
+            <tr>
+            <td><code>icon</code></td>
+            <td>The icon that will be displayed on the message (optional)</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="example">Example</h3>
+            <p><code>/consent?title=Example&amp;description=This%20is%20an%20example%20message&amp;link=https://example.com&amp;icon=https://via.placeholder.com/50x50</code></p>
+        </div>
+        <br>
+    </body>
+</html>

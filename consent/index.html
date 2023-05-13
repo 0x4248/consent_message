@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Consent Message</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="background" id="background"></div>
+        <div class="consent-message" id="consent-message">
+            <h2 id="title">Loading...</h2>
+            <div id="message">
+                <img id="icon" src="https://media.tenor.com/On7kvXhzml4AAAAi/loading-gif.gif" alt="loading...">
+                <div>
+                    <p id="description">Loding description...</p>
+                    <p id="redirect_text" class="redirect_text" ></p>
+                </div>
+            </div>
+            <br>
+            <div id="buttons">
+                <button id="no-button" onclick="window.history.back()">Cancel</button>
+                <button id="yes-button" onclick="handleYes()">Continue</button>
+            </div>
+        </div>
+        <p class="footer">Powered by <strong>consent message</strong>. This project is <a href="https://www.github.com/awesomelewis2007/consent-message">open source</a>.</p>
+        <script src="../js/background.js"></script>
+        <script src="js/handler.js"></script>
+    </body>
+</html>
