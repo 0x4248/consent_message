@@ -1,6 +1,7 @@
 /* Consent message
  * Get user consent in a way that is both easy and customizable to your needs.
  * Github: https://www.github.com/awesomelewis2007/consent_message
+ * Licence: GPL-3.0
  * By: Lewis Evans
  */
 
