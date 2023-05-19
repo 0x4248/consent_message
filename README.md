@@ -12,7 +12,7 @@ Consent messages are at `/consent`. You use the URL perimeters to customize the 
 ### Perimeters
 
 | Perimeter | Description |
-| --- | --- | --- |
+| --- | --- |
 | `title` | The title of the message |
 | `description` | The description of the message |
 | `link` | Where the browser will be redirected to if the user accepts the message |
