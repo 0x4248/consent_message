@@ -12,7 +12,7 @@ Consent messages are at `/consent`. You use the URL perimeters to customize the 
 ### Perimeters
 
 | Perimeter | Description |
-| --- | --- | --- |
+| --- | --- |
 | `title` | The title of the message |
 | `description` | The description of the message |
 | `link` | Where the browser will be redirected to if the user accepts the message |
@@ -22,4 +22,4 @@ Consent messages are at `/consent`. You use the URL perimeters to customize the 
 
 `/consent?title=Example&description=This%20is%20an%20example%20message&link=https://example.com&icon=https://via.placeholder.com/50x50`
 
-[Click here to see the example](https://consent-message.herokuapp.com/consent?title=Example&description=This%20is%20an%20example%20message&link=https://example.com&icon=https://via.placeholder.com/50x50)
+[Click here to see the example](https://consent-message.vercel.app/consent?title=Example&description=This%20is%20an%20example%20message&link=https://example.com&icon=https://via.placeholder.com/50x50)
