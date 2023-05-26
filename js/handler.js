@@ -23,6 +23,22 @@ if (title == null || description == null || link == null) {
 document.getElementById("title").innerHTML = title;
 document.getElementById("description").innerHTML = description;
 
+if (title.includes("<script>") || title.includes("<style>")) {
+    document.getElementById("consent-message").innerHTML = "<h1>Request blocked</h1><p>We have blocked your request because it contains a <code>&lt;script&gt;</code> or <code>&lt;style&gt;</code> tag.</p>";
+}
+
+if (description.includes("<script>") || description.includes("<style>")) {
+    document.getElementById("consent-message").innerHTML = "<h1>Request blocked</h1><p>We have blocked your request because it contains a <code>&lt;script&gt;</code> or <code>&lt;style&gt;</code> tag.</p>";
+}
+
+if (icon.includes("<script>") || icon.includes("<style>")) {
+    document.getElementById("consent-message").innerHTML = "<h1>Request blocked</h1><p>We have blocked your request because it contains a <code>&lt;script&gt;</code> or <code>&lt;style&gt;</code> tag.</p>";
+}
+
+if (link.includes("<script>") || link.includes("<style>")) {
+    document.getElementById("consent-message").innerHTML = "<h1>Request blocked</h1><p>We have blocked your request because it contains a <code>&lt;script&gt;</code> or <code>&lt;style&gt;</code> tag.</p>";
+}
+
 if (icon == null || icon == "" || icon == "null" || icon == "none") {
     document.getElementById("icon").style.display = "none";
 } else {
