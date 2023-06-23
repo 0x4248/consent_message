@@ -1,0 +1,16 @@
+{
+    "name": "consent_message",
+    "description": "Get user consent in a way that is both easy and customizable to your needs.",
+    "version": "",
+    "main_file": "index.html",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "https://www.github.com/awesomelewis2007/consent_message",
+    "email": "none",
+    "languages": [
+        "html",
+        "css",
+        "javascript"
+    ],
+    "actions": {}
+}
