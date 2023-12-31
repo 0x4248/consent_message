@@ -22,8 +22,9 @@ body {
 a {
     color: #618ae3;
     text-decoration: none;
-    
+
 }
+
 .examples {
     display: flex;
     flex-wrap: wrap;
