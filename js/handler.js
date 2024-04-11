@@ -1,8 +1,8 @@
 /* Consent message
  * Get user consent in a way that is both easy and customizable to your needs.
- * Github: https://www.github.com/lewisevans2007/consent_message
+ * Github: https://www.github.com/0x4248/consent_message
  * Licence: GNU General Public License v3.0
- * By: Lewis Evans
+ * By: 0x4248
  */
 
 function sleep(ms) {
