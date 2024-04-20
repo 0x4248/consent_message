@@ -18,6 +18,7 @@ const link = urlParams.get('link');
 
 if (title == null || description == null || link == null) {
     document.getElementById("consent-message").innerHTML = "<h1>Invalid URL</h1><p>Make sure you have all the required parameters in the URL.</p><p>Required parameters: title, description, icon, link</p>";
+    document.getElementById("consent-message").style.opacity = 1;
 }
 
 document.getElementById("title").innerHTML = title;
